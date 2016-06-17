@@ -17,7 +17,7 @@
 	       fetch="git://github.com/CyanogenMod"
 	       revision="cm-13.0" />
 
-  <remote  name="toxic-os"
+  <remote  name="mm"
            fetch="https://github.com/Toxic-OS"
            revision="mm" />
            
@@ -37,6 +37,7 @@
   <project path="vendor/toxic" name="android_vendor_toxic" remote="mm" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="mm" /> 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="mm" />
   <!-- END Toxic-os -->
   
 <!-- BEGIN CYANOGENMOD -->
@@ -290,7 +291,6 @@
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
