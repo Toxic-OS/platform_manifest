@@ -36,6 +36,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="mm" />
   <project path="vendor/toxic" name="android_vendor_toxic" remote="mm" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="mm" /> 
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mm" />
   <!-- END Toxic-os -->
   
 <!-- BEGIN CYANOGENMOD -->
