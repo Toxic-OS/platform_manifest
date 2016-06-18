@@ -1,3 +1,5 @@
+<img src="https://raw.github.com/Toxic-OS/platform_manifest/mm/Toxic.png">
+
 Toxic-OS
 --------
 
@@ -14,11 +16,6 @@ To initialize your local repository using the Toxic-OS trees, use a command like
 Then to sync up:
 
     repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
 Notice
 --------
