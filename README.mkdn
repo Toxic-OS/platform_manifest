@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/Toxic-OS/platform_manifest/mm/small.png"> 
+<img src="https://raw.github.com/Toxic-OS/platform_manifest/mm/small.jpg"> 
 
 Toxic-OS
 --------
