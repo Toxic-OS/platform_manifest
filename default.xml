@@ -40,6 +40,7 @@
   <project path="vendor/toxic" name="android_vendor_toxic" remote="mm" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="mm" /> 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mm" />
+  <project path="packages/apps/ToxicOTA" name="android_packages_apps_ToxicOTA" remote="mm" /> 
   <!-- END Toxic-os -->
   
 <!-- BEGIN CYANOGENMOD -->
