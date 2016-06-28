@@ -1,22 +1,43 @@
 <img src="https://raw.github.com/Toxic-OS/platform_manifest/mm/small.jpg"> 
 
-Toxic-OS
---------
+Toxic-OS 6.0.1 Marshmallow
+====================================
 
-Getting Started
----------------
+### Installing Repo ###
+```bash
+# Make a directory where Repo will be stored and add it to the path
+    $ mkdir ~/.bin
+    $ PATH=~/.bin:$PATH
 
-To get started with Toxic-OS, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+# Download Repo itself
+    $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 
-To initialize your local repository using the Toxic-OS trees, use a command like this:
+# Make Repo executable
+    $ chmod a+x ~/.bin/repo
+```
 
-    repo init -u git://github.com/Toxic-OS/platform_manifest.git -b mm
+```bash
+Open  terminal Ctrl+Alt+T
 
-Then to sync up:
+    cd /home
+    mkdir toxic
+    cd toxic
+```
+### Initializing Toxic Repo's ###
+```bash
+### Toxic sources: ###
+    $ repo init -u git://github.com/Toxic-OS/platform_manifest.git -b mm
+```
+### For sync: ###
+```bash
+    $ repo sync -j# --f --force-sync
+```
+### Simple Build Script.. ###
+```bash
+    $ . Toxic-OS/build.sh  <device>
+```
 
-    repo sync
-
-Notice
---------
-Still WIP
+### Or Build Without Build Script ###
+```bash
+    $ brunch <device>
+```
