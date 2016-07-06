@@ -1,6 +1,6 @@
 <img src="https://raw.github.com/Toxic-OS/platform_manifest/mm/small.jpg"> 
 
-Toxic-OS 6.0.1 Marshmallow
+Toxic-OS 7.0 Nougat Not Ready Just for fun Created New Branch
 ====================================
 
 ### Installing Repo ###
@@ -26,7 +26,7 @@ Open  terminal Ctrl+Alt+T
 ### Initializing Toxic Repo's ###
 ```bash
 ### Toxic sources: ###
-    $ repo init -u git://github.com/Toxic-OS/platform_manifest.git -b mm
+    $ repo init -u git://github.com/Toxic-OS/platform_manifest.git -b n
 ```
 ### For sync: ###
 ```bash
