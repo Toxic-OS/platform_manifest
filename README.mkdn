@@ -30,7 +30,7 @@ Open  terminal Ctrl+Alt+T
 ```
 ### For sync: ###
 ```bash
-    $ repo sync -j# --f --force-sync
+    $ repo sync -j# --f --force-sync -c --no-tags
 ```
 ### Simple Build Script.. ###
 ```bash
